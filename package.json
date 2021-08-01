@@ -1,0 +1,36 @@
+{
+  "name": "backendgeeks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn hotelServer.ts",
+    "olympics": "nodemon olympics.mjs",
+    "express": "nodemon express.mjs",
+    "koa": "nodemon koa.mjs",
+    "postgressKoa": "nodemon postgressKoa.js",
+    "hotelServer": "ts-node-dev --respawn hotelServer.ts"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "^8.6.0",
+    "apollo-server": "^2.25.1",
+    "apollo-server-koa": "^2.25.1",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-middleware": "^4.0.2",
+    "graphql-tools": "^6.2.2",
+    "koa": "^2.13.1",
+    "koa-graphql": "^0.8.0",
+    "koa-router": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "ts-node-dev": "^1.1.6",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.34",
+    "typescript": "^4.3.2"
+  }
+}
